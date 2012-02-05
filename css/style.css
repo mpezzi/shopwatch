@@ -73,3 +73,10 @@ body {
 #main .feature {
   margin-bottom: 20px;
 }
+
+/* Footer
+------------------------------- */
+#footer {
+  margin: 20px 0;
+  color: #999;
+}
