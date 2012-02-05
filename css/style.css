@@ -1,0 +1,88 @@
+body {
+  background: #fff url(../img/header-bg.png) top center repeat-x;
+}
+
+/* Page
+------------------------------- */
+.page {
+  position: relative;
+}
+
+/* Header
+------------------------------- */
+#header {
+  height: 398px;
+  color: #fff;
+}
+
+#header .header-inner {
+  padding-top: 60px;
+}
+
+#header,
+#header h1,
+#header h1 a,
+#header h2,
+#header h3 {
+  color: #fff;
+  text-shadow: 0 -1px 1px #555;
+}
+
+#header h1 a {
+  display: block;
+  width: 408px;
+  height: 101px;
+  background: transparent url(../img/logo.png) no-repeat;
+  font-size: 1px;
+  text-indent: -2000em;
+  outline: none;
+}
+
+#header h2 {
+  margin: 20px 0 10px 0;
+  font-size: 30px;
+  line-height: 1.0;
+}
+
+#header p.lead {
+  font-size: 16px;
+}
+
+#header a.download {
+  font-size: 20px;
+}
+
+/* Device
+------------------------------- */
+#device {
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+
+/* iPhone
+------------------------------- */
+.iphone {
+  position: relative;
+  width: 396px;
+  height: 744px;
+  background: transparent url(../img/iphone4.png) no-repeat;
+}
+
+.iphone .screen {
+  position: absolute;
+  width: 320px;
+  height: 480px;
+  top: 126px;
+  left: 38px;
+}
+
+/* Main
+------------------------------- */
+#main {
+  margin: 20px 0;
+}
+
+#main .feature {
+  margin-bottom: 20px;
+}
