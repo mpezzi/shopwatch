@@ -11,11 +11,12 @@ body {
 /* Header
 ------------------------------- */
 #header {
-  height: 398px;
+  height: 338px;
   color: #fff;
 }
 
-#header .header-inner {
+#header,
+#device {
   padding-top: 60px;
 }
 
@@ -50,14 +51,6 @@ body {
 
 #header a.download {
   font-size: 20px;
-}
-
-/* Device
-------------------------------- */
-#device {
-  position: absolute;
-  top: 40px;
-  right: 0;
 }
 
 /* iPhone

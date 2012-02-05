@@ -1,3 +1,6 @@
 $(function(){
-  $('#device div.screen').cycle();
+  $('#device div.screen').cycle({ 
+    fx: 'scrollLeft',
+    speed: 500
+  });
 });
