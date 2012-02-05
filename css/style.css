@@ -29,14 +29,8 @@ body {
   text-shadow: 0 -1px 1px #555;
 }
 
-#header h1 a {
-  display: block;
-  width: 408px;
-  height: 101px;
-  background: transparent url(../img/logo.png) no-repeat;
-  font-size: 1px;
-  text-indent: -2000em;
-  outline: none;
+#header h1 a img {
+  max-width: 100%;
 }
 
 #header h2 {
@@ -78,4 +72,11 @@ body {
 
 #main .feature {
   margin-bottom: 20px;
+}
+
+/* Footer
+------------------------------- */
+#footer {
+  margin: 20px 0;
+  color: #999;
 }
